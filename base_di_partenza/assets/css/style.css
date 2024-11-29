@@ -261,3 +261,135 @@ header {
     text-align: center;
     margin-top: 8em;
 }
+@media screen and (max-width: 1024px) {
+    .navigazione {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+    
+    .titolo {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto; 
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  
+    .titolo h1 {
+      font-size: 4em;
+      margin-bottom: 10px;
+    }
+  
+    .titolo p {
+      font-size: 16px;
+    }
+  
+    .sequenzem {
+      max-width: 100%;
+      margin-top: 1em;
+    }
+  
+    .trending {
+      padding: 2em 5%;
+    }
+  
+    .article {
+      flex: 0 0 48%; 
+      max-width: 48%;
+    }
+  
+    .articles-wrapper {
+      flex-direction: column;
+      padding: 2em 5%;
+    }
+  
+    .articles-list {
+      margin-right: 0;
+    }
+  
+    .article-item {
+      flex-direction: column;
+    }
+  
+    .article-content {
+      max-width: 100%;
+    }
+  
+    .article-image {
+      width: 100%;
+      height: auto;
+      margin-bottom: 1em;
+    }
+  
+    .discover-more {
+      padding: 20px 15px;
+    }
+  
+    .discover-grid {
+      flex-wrap: wrap;
+    }
+  
+    .discover-category {
+      flex: 1 1 45%; 
+      font-size: 1em;
+    }
+  
+    .help {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      font-size: 1em;
+      gap: 1em;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 768px) {
+    .navigazione {
+      padding: 10px;
+    }
+  
+    .titolo {
+      padding: 10px;
+    }
+  
+    .titolo h1 {
+      font-size: 3em;
+    }
+  
+    .titolo p {
+      font-size: 14px;
+    }
+  
+    .sequenzem {
+      max-width: 100%;
+    }
+  
+    .trending {
+      padding: 1em;
+    }
+  
+    .article {
+      flex: 0 0 100%; 
+      max-width: 100%;
+    }
+  
+    .articles-wrapper {
+      padding: 1em;
+    }
+  
+    .discover-more {
+      padding: 10px;
+    }
+  
+    .discover-category {
+      flex: 1 1 100%;
+      font-size: 0.9em;
+    }
+  
+    .help {
+      flex-wrap: wrap;
+      justify-content: center;
+      font-size: 0.9em;
+    }
+  }
