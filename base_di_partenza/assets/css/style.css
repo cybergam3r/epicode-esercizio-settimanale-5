@@ -1,6 +1,12 @@
 header {
     background-color: #ffc017;
-  }
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #333;
+}
   
   .navigazione {
     max-width: 80%;
@@ -33,6 +39,7 @@ header {
   }
   
   .titolo {
+    background-color: #ffc017;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
